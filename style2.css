@@ -1,0 +1,56 @@
+body
+{
+    background-image: url("images/Lush_green_carpet_of_tea_plants_at_Anayirankal_3.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: yellowgreen;
+    margin: 0px;
+}
+.align
+{
+    text-align: center;
+}
+
+.right
+{
+    background-color: rgba(255, 235, 205, 0.178);
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 25px;
+    flex-direction: row;
+    margin-right: 0px;
+    padding: 25px;
+    width: 40%;
+    
+    
+}
+#word1
+{
+    color: white;
+}
+.main
+{
+    display:flex;
+    flex-direction: row;
+    
+    margin-top: 90px;
+    width: 100%;
+}
+.left
+{
+    width: 50%;
+    font-family: fantasy;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+    color:maroon;
+    margin-left: 10px;
+    font-style: italic;
+    
+
+}

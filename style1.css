@@ -1,0 +1,127 @@
+body 
+    {
+        background-color: rgba(0, 0, 0, 0.993); 
+        color: rgb(95, 252, 4); 
+        margin: 0px;
+        
+        background-repeat: no-repeat;
+        background-size: auto;
+        animation: bgchange 10s infinite ;
+
+        
+    }
+
+  @keyframes bgchange
+  {
+   
+    from {background-image: url("images/Country_boat_ride_through_serene_waters_6.jpg");}
+    to {background-image: url("images/92273.jpg");}
+      
+
+       
+  }
+
+
+
+.heading
+{
+    display: flex;
+    color: white;
+    text-align: center; 
+    background-color: rgba(0, 128, 49, 0.096);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 40px;
+    border-radius: 20px;
+
+
+}
+
+.middle
+{
+    margin-left: 10px;
+   
+    
+
+}
+.image
+{
+    background-color: yellow;
+    height:100px;
+    margin-top: 0px;
+    margin-right:10px;
+}
+h1 
+{
+    margin-bottom: 0px;
+    color: yellowgreen;
+    font-style: italic;
+    text-align: center;
+}
+.word
+{
+    color: yellow;
+    
+}
+.main
+{
+    display:flex;
+    flex-direction: left;
+    margin-top: 40PX;
+    width: 100%;
+
+}
+.left
+{
+    background-color: rgba(0, 128, 128, 0.281);
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    width: 25%;
+
+}
+.middles
+{
+    background-color: rgba(0, 128, 128, 0.281);
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    width: 25%;
+
+}
+
+.right
+{
+    background-color: rgba(0, 128, 128, 0.281);
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    width: 25%;
+}
+.symbol
+{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+}
+.anchor-img
+{
+    color: black;
+}
+.footer
+{
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+    color:maroon;
+    margin-left: 10px;
+    font-style: italic;
+    position: fixed;
+    
+}
+.top
+{
+    color: white;
+    margin: 8px;
+}
