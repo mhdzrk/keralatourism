@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    
 </head>
 <body style="margin: 0px;">
     <div class="main container mx-0">
@@ -18,19 +19,25 @@
         </div>
         <div class="right">
             <h3 style="text-align: center;" >Login</h3>
-            <form>
+            <form action="index.html" onsubmit="return fvalidate();">
                 <div class="container form-group mx-0 my-0">
                     Email id:
-                    <input class="form-control mx-0" type="text" placeholder="yourname@mail.com">
+                    <input id="email" class="form-control mx-0" type="text" placeholder="yourname@mail.com">
                     Password:
-                    <input class="form-control mx-0" type="password" value="password">
+                    <input id="pwd" class="form-control mx-0" type="password" placeholder="password">
 
-                    <input class="btn my-3 mx-0 btn-primary" type="button" value="login">
+                    <button class="btn my-3 mx-0 btn-primary" type="submit" id="submit">login</button>
                     <a href="signup.html" target="_blank"><p class="align border-bottom p-3">Register Now</p></a>
                     <a href="#"><p class="align">Forgot Password?</p></a>
         
                 </div>
             </form>
+            <script src="validation.js"></script>
+            
+            
+            
+            
+
         </div>
         
     </div>

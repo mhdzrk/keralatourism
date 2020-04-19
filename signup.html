@@ -18,32 +18,33 @@
         </div>
         <div class="right">
             <h3 style="text-align: center;">SIGN UP</h3>
-            <form>
+            <form action="index.html" onsubmit="return fvalidate()">
                 <div class="container form-group mx-0 my-0">
                     Name:
-                    <input class="form-control mx-0" type="text" placeholder="enter your name">
+                    <input id="name" class="form-control mx-0" type="text" placeholder="enter your name">
                     Email id:
-                    <input class="form-control mx-0" type="text" placeholder="yourname@mail.com">
+                    <input id="email" class="form-control mx-0" type="text" placeholder="yourname@mail.com">
                     Phone:
-                    <input class="form-control mx-0" type="number" placeholder="enter your number">
+                    <input id="phone" class="form-control mx-0" type="text" placeholder="enter your number">
                     Password:
-                    <input class="form-control mx-0" type="password" value="password">
+                    <input id="pwd" class="form-control mx-0" type="password" placeholder="password">
                     DOB:
-                    <input class="form-control mx-0" type="date">
+                    <input id="dob" class="form-control mx-0" type="date">
                     Gender:<br>
-                    <input type="radio" id="male" name="gender" value="male">
+                    <input id="ml" type="radio" name="gender" value="male">
                     <label for="male">male</label>
-                    <input type="radio" id="female" name="gender" value="female">
+                    <input id="fl" type="radio"  name="gender" value="female">
                     <label for="female">female</label>
                     <input type="radio" id="other" name="gender" value="other">
                     <label for="other">other</label> 
                     <br>
-                    <input class="btn my-3 mx-0 btn-primary" type="button" value="SIGN UP">
+                    <button class="btn my-3 mx-0 btn-primary" type="submit">signup</button>
                     <a href="#" target="_blank"><p class="align border-bottom p-3">Sign up with Google</p></a>
                     <a href="login.html"><p class="align">Already have an account?</p></a>
         
                 </div>
             </form>
+            <script src="validation.js"></script>
         </div>
         
     </div>
